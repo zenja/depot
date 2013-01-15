@@ -2,9 +2,6 @@
 <p id="notice"><%= notice %></p>
 <% end %>
 
-<!-- why the above and this both not working?? -->
-<%= flash[:notice] if flash[:notice] %>
-
 <h1>Your Pragmatic Catalog</h1>
 
 <% @products.each do |product| %>
